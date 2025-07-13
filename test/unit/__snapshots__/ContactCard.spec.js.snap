@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ContactCard.vue start checking with sample data 1`] = `
+<div class="contact-card">
+  <div class="contact-photo"><img src="sample.jpg" alt="anil kumar"></div>
+  <div class="contact-info">
+    <div class="contact-name">anil kumar</div>
+    <div class="contact-details">
+      <div class="contact-address">6549 Madhapur <br> 500081 hyd telegana<br> India</div><button class="call-button">Call (123) 123-1234</button>
+    </div>
+  </div>
+</div>
+`;

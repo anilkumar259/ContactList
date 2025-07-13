@@ -25,5 +25,6 @@ describe('ContactCard.vue', () => {
     })
 
     expect(wrapper.text()).toContain('anil kumar')
+    expect(wrapper.html()).toMatchSnapshot()   
   })
 })
